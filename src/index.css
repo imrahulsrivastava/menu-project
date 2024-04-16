@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+}
+
+.heading {
+  padding: 20px;
+  text-decoration: underline;
+  text-decoration-color: #c69f62;
+  color: #102a42;
+}
+
+.navigations {
+  color: #c69f62;
+  margin-bottom: 50px;
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+
+    li {
+      cursor: pointer;
+    }
+  }
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
